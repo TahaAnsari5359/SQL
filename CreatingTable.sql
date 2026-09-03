@@ -1,6 +1,7 @@
 CREATE DATABASE TahaDb;
 USE TahaDb;
 
+-- Creating a table 
 CREATE TABLE students(
 id INT AUTO_INCREMENT PRIMARY KEY,
 Name VARCHAR(100) NOT NULL,
@@ -12,7 +13,13 @@ gender ENUM('male','female','others'),
 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-SELECT * FROM students;
+-- Renaming a table 
+RENAME TABLE students to studentsss;
+
+-- Displaying Table
+SELECT * FROM studentsss;
+
+
 
 
 
