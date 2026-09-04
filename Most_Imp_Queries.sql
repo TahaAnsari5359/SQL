@@ -76,6 +76,13 @@ SELECT * FROM users WHERE gender=('Male') ORDER BY date_of_birth ASC;
 -- Limit 
 SELECT * FROM users LIMIT 5;
 
+-- Update query
+UPDATE users SET salary=450 WHERE id=1;
+SELECT * FROM users;
+UPDATE users SET gender=('Female') WHERE id=1;
+
+
+
 
 
 
