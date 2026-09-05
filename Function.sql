@@ -68,5 +68,7 @@ SELECT name,DAY(now()) as day FROM users;
 -- Datediff func
 SELECT name,DATEDIFF(CURDATE(),date_of_birth) AS days FROM users;
 
+-- IF condition
+SELECT name,gender, IF(gender='Male', 'yes','No') AS is_gender FROM users;
 
 
