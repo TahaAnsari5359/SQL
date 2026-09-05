@@ -82,6 +82,10 @@ SELECT * FROM users;
 UPDATE users SET gender=('Female') WHERE id=1;
 
 
+-- Deleting Data
+DELETE FROM users WHERE id=1;
+SELECT * FROM users WHERE id=1;
+
 
 
 
